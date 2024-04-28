@@ -42,7 +42,12 @@ The project aims to optimize the process of analyzing and predicting key factors
    - Normalized Difference Vegetation Index (NDVI)
    - Land Surface Temperature (LST)
 
+In the following diagram, we measure the estimated scaling of the SVM algorithm as the size of the dataset increases, we can confirm a time complexity of O($n^2$) where n is the number of samples.
+
+We use this time complexity for our job scheduling to determine the resource estimate, which we define as a time slot on a given a machine.
+
 ![Figure4.Using NDVI on SVM ](https://github.com/ms2176/QLand/blob/main/images/Using%20SVM%20with%20NDVI.png)
+
 
 ### Quantum Computing Application
 **Quantum Job Scheduling Problem**:
@@ -53,6 +58,13 @@ The project aims to optimize the process of analyzing and predicting key factors
       -  Every job should be executed exactly once over the entire system.
       -  No intersection of job execution on the same machine and time.
 
+   <img src="https://github.com/ms2176/QLand/blob/main/images/ingest.png" width="500">
+
+## Results
+The implementation of a quantum scheduler within distributed machine learning (ML) systems has demonstrated notable efficacy in optimizing task allocation across multiple machines while minimizing execution time. Through the utilization of quantum algorithms such as the Quantum Approximate Optimization Algorithm (QAOA), the scheduler explores expansive solution spaces, seeking optimal task assignments that mitigates resource conflicts to enhance overall system performance.
+
+Moreover, the quantum scheduler exhibits adaptability and responsiveness to dynamic changes in job demands and resource availability, affording the system the capacity to adjust task allocations. This optimization enables the scheduler to maintain efficient resource utilization and throughput, thereby augmenting the efficiency of ML model training and inference processes.
+
 ## Research Foundation
 - **Background**: In examining anthropogenic factors of desertification, our project references research that identifies four critical indicators: NDVI, LST, DGSI (Dryness Greenness Soil Index), and Albedo. However, existing research (e.g., Feng et al., 2022) points out significant challenges in accurate forecasting and prediction using these indicators. (Source: Feng, K., et al., "Monitoring Desertification Using Machine-Learning Techniques with Multiple Indicators Derived from MODIS Images in Mu Us Sandy Land, China", Remote Sensing, 2022, 14(11):2663. [DOI](https://doi.org/10.3390/rs14112663)).
 
@@ -62,11 +74,12 @@ The QLand||QArdh project is at the forefront of integrating quantum computing wi
 ## Project Structure
 
     ├── app             <- The directly executable code of the scheduler.
-    ├── LST_RF          <- Jupyter notebook illustrating the use of RF model over LST index.
-    ├── LST_SVM         <- Jupyter notebook illustrating the use of SVM model over LST index.
-    ├── NDVI_RF         <- Jupyter notebook illustrating the use of RF model over NVDI index.
-    ├── NDVI_SVM        <- Jupyter notebook illustrating the use of SVM model over NVDI index.
     ├── images          <- Holds README images.
+    ├── classical algorithms             <- Classical Algorithms used for desertification prediction.
+    |   ├── LST_RF          <- Jupyter notebook illustrating the use of RF model over LST index.
+    |   ├── LST_SVM         <- Jupyter notebook illustrating the use of SVM model over LST index.
+    |   ├── NDVI_RF         <- Jupyter notebook illustrating the use of RF model over NVDI index.
+    |   └── NDVI_SVM        <- Jupyter notebook illustrating the use of SVM model over NVDI index.
     └────
 --------
 
