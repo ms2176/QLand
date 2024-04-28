@@ -2,15 +2,15 @@
 
 ### Table of Content
 <ul>
-   <li><a name="Project-Outline">Project Outline</a></li>
-   <li><a name="Objective">Objective</a></li>
-   <li><a name="Case-Study">Case Study</a></li>
-   <li><a name="Research-Foundation">Research Foundation</a></li>
-   <li><a name="Conclusion">Conclusion</a></li>
-   <li><a name="Project-Structure">Project Structure</a></li>
-   <li><a name="Getting-Started-With-The-App">Getting Started With The App</a></li>
-   <li><a name="Credits">Credits</a></li>
-   <li><a name="Citations">Citations</a></li>
+   <li><a href="#Project-Outline">Project Outline</a></li>
+   <li><a href="#Objective">Objective</a></li>
+   <li><a href="#Case-Study">Case Study</a></li>
+   <li><a href="#Research-Foundation">Research Foundation</a></li>
+   <li><a href="#Conclusion">Conclusion</a></li>
+   <li><a href="#Project-Structure">Project Structure</a></li>
+   <li><a href="#Getting-Started-With-The-App">Getting Started With The App</a></li>
+   <li><a href="#Credits">Credits</a></li>
+   <li><a href="#Citations">Citations</a></li>
 </ul>
 
 ## Project Outline
