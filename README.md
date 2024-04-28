@@ -1,5 +1,9 @@
 # QLand || QArdh
 
+<center>
+<img src="https://github.com/ms2176/QLand/blob/main/images/banner.png">
+</center>
+
 ### Table of Content
 <ul>
    <li><a href="#Project-Outline">Project Outline</a></li>
@@ -56,7 +60,7 @@ The QLand||QArdh project is at the forefront of integrating quantum computing wi
     ├── LST_SVM         <- Jupyter notebook illustrating the use of SVM model over LST index.
     ├── NDVI_RF         <- Jupyter notebook illustrating the use of RF model over NVDI index.
     ├── NDVI_SVM        <- Jupyter notebook illustrating the use of SVM model over NVDI index.
-    ├── images          <- holds README images.
+    ├── images          <- Holds README images.
     └────
 --------
 
