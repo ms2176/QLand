@@ -32,9 +32,10 @@ The project aims to optimize the process of analyzing and predicting key factors
 ### Data Collection
 **Datasets**: We utilized datasets based on desertification analysis in Iraq, incorporating insights from previous studies such as the one outlined by Omdena on using machine learning and satellite data for desertification detection. (Source: [Omdena Blog](https://www.omdena.com/blog/desertification-detection-with-machine-learning-and-satellite-data)).
 
-![Figure2. Iraq, case study region](https://github.com/ms2176/QLand/blob/main/images/Fig2%20Study%20case%20Region-of-interest-for-land-cover-classification-approach.jpg | width=500)
+<img alt="Figure2. Iraq, case study region" src="https://github.com/ms2176/QLand/blob/main/images/Fig2%20Study%20case%20Region-of-interest-for-land-cover-classification-approach.jpg" width="500">
+<br>
+<img alt="Figure3. Iraq case study" src="https://github.com/ms2176/QLand/blob/main/images/study%20case%202.jpg" width="500">
 
-![Figure3. Iraq case study](https://github.com/ms2176/QLand/blob/main/images/study%20case%202.jpg | width=500)
 
 ### Classical Machine Learning Models
 **Machine Learning Implementation**: We employed classical machine learning models such as Random Forest (RF) and Support Vector Machines (SVM). These models were tested with two of the four main indicators of desertification:
