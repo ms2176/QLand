@@ -38,7 +38,7 @@ class DesertificationAnalyzer:
         return computational_cost
 
     def gradient_boosted_trees_resource_estimation(
-        self, tree_num: int = 100, depth: int = 100
+        self, tree_num: int = 25, depth: int = 10
     ):
         """
         The complexity of training gradient boosted trees depends on several factors including:
@@ -67,7 +67,7 @@ class DesertificationAnalyzer:
         computational_cost = self.samples**2
         return computational_cost
 
-    def cnn_resource_estimation(self, k: int = 10, m: int = 23):
+    def cnn_resource_estimation(self, k: int = 5, m: int = 23):
         """
         For a CNN layer with a single convolution operation, the time complexity per layer can be expressed as O(n^2 * k^2 * m), where:
 
@@ -108,3 +108,14 @@ class DesertificationAnalyzer:
         results = {key: value / max_value for key, value in results.items()}
 
         return results
+
+if __name__ == "__main__":
+    data = {
+        "country": "Iraq",
+        "nvdi_data": "NVDI_RF/modis_ndvi_series.csv",
+        "lst_data": "LST_RF/modis_ndvi_series_LST.csv",
+        "models": ["Random Forest", "Gradient Boosted Trees", "CNN", "Support Vector Machines"],
+    }
+    analyzer = DesertificationAnalyzer(data)
+
+    print(analyzer.estimate_resources())
