@@ -74,7 +74,7 @@ fval=3.0, machine1job1time1=1.0, machine1job1time2=0.0, machine1job2time1=0.0, m
 ```
 
 Mapping it to a table results in the following:
-|           | Machine 1 | Machine 1 |
+|           | Machine 1 | Machine 2 |
 |-----------|-----------|-----------|
 |  Time 1   |   Job 1   |   Job 3   |
 |  Time 2   |   Job 2   |   IDLE    |
