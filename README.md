@@ -12,6 +12,7 @@
    <li><a name="#Conclusion">Conclusion</a></li>
    <li><a name="#Getting-Started-With-The-App">Getting Started With The App</a></li>
    <li><a name="#Credits">Credits</a></li>
+   <li><a name="#Citations">Citations</a></li>
 </ul>
 
 ## Project Outline
@@ -92,3 +93,11 @@ This project was developed to be presented for the Quantum Computing Hackathon a
    - [Ricky Young](https://www.linkedin.com/in/ricky-y-1545b3a9), Qbraid
    - [David Morcuende Cantador](https://www.linkedin.com/in/david-morcuende-cantador/), Mahou - San Miguel
    - [Muhammad Kashif](https://www.linkedin.com/in/muhammad-kashif-29191571), NYUAD
+
+## Citations
+<ul>
+   <li><a href="https://www.omdena.com/blog/desertification-detection-with-machine-learning-and-satellite-data">Desertification Detection using Machine Learning and Satellite Data, Omdena</a></li>
+   <li><a href="https://doi.org/10.3390/rs14112663">Monitoring Desertification Using Machine-Learning Techniques with Multiple Indicators Derived from MODIS Images in Mu Us Sandy Land, China, by Kun Feng, Tao Wang, Shulin Liu, Wenping Kang, Xiang Chen, Zichen Guo and Ying Zhi.</a></li>
+   <li><a href="https://github.com/mareksubocz/QuantumJSP/blob/master/job_shop_scheduler.py">Quantum Shop Scheduler repository by Marek Subocz on GitHub</a></li>
+   <li><a href="https://arxiv.org/abs/1506.08479">Quantum Annealing Implementation of Job-Shop Scheduling, by Davide Venturelli, Dominic J.J. Marchand and Galo Rojo. Cornell University</a></li>
+</ul>
