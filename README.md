@@ -1,10 +1,10 @@
-# QLand || QArdh
+# QLand | QArdh
 
 <center>
 <img src="https://github.com/ms2176/QLand/blob/main/images/banner.png">
 </center>
 
-### Table of Content
+### Table of Contents
 <ul>
    <li><a href="#Project-Outline">Project Outline</a></li>
    <li><a href="#Objective">Objective</a></li>
@@ -25,14 +25,14 @@ QLand||QArdh is a pioneering project developed during the NYU Quantum Computing 
 
 
 ## Objective
-The project aims to optimize the process of analyzing key factors contributing to desertification by using both classical machine learning and quantum computing techniques. This dual approach seeks to improve accuracy and efficiency in predicting future desertification patterns.
+The project aims to optimize the process of analyzing and predicting key factors contributing to desertification by using both classical machine learning and quantum computing techniques. This dual approach seeks to improve accuracy and efficiency in predicting future desertification patterns.
 
 ## Case Study
 
 ### Data Collection
 **Datasets**: We utilized datasets based on desertification analysis in Iraq, incorporating insights from previous studies such as the one outlined by Omdena on using machine learning and satellite data for desertification detection. (Source: [Omdena Blog](https://www.omdena.com/blog/desertification-detection-with-machine-learning-and-satellite-data)).
 
-![Figure2. Iraq, case study region](https://github.com/ms2176/QLand/blob/main/images/Fig2%20Study%20case%20Region-of-interest-for-land-cover-classification-approach.jpg)
+![Figure2. Iraq, case study region](https://github.com/ms2176/QLand/blob/main/images/Fig2%20Study%20case%20Region-of-interest-for-land-cover-classification-approach.jpg | width=500)
 ![Figure3. Iraq case study](https://github.com/ms2176/QLand/blob/main/images/study%20case%202.jpg)
 
 ### Classical Machine Learning Models
@@ -40,12 +40,16 @@ The project aims to optimize the process of analyzing key factors contributing t
    - Normalized Difference Vegetation Index (NDVI)
    - Land Surface Temperature (LST)
 
-![Figure4.Using NDVI on SVM ](https://github.com/ms2176/QLand/blob/main/images/Using%20SVM%20with%20NDVI.png)
+![Figure4.Using NDVI on SVM ](https://github.com/ms2176/QLand/blob/main/images/Using%20SVM%20with%20NDVI.png | width=500)
 
 ### Quantum Computing Application
 **Quantum Job Scheduling Problem**:
    - **Definition**: In quantum computing, the job scheduling problem involves the optimal allocation of quantum computation tasks to available quantum resources (qubits, quantum gates) over time. Efficient scheduling is crucial for maximizing the utilization of quantum hardware, which is still a limited resource.
    - **Application**: For this project, we applied the Quantum Approximate Optimization Algorithm (QAOA) to solve quantum job scheduling problems. This approach aims to streamline our computational processes, thereby speeding up the analysis of desertification indicators.
+   - **Implementation**: For our Job Shop Scheduling Problem (JSSP), we use several different constraints that allow us to schedule classical statistical models and AI/ML modes in situations which involve supercomputers and GPUs.
+      - Execute as many jobs as possible in the nearest time over all available machines, ensuring maximum utilization.
+      -  Every job should be executed exactly once over the entire system.
+      -  No intersection of job execution on the same machine and time.
 
 ## Research Foundation
 - **Background**: In examining anthropogenic factors of desertification, our project references research that identifies four critical indicators: NDVI, LST, DGSI (Dryness Greenness Soil Index), and Albedo. However, existing research (e.g., Feng et al., 2022) points out significant challenges in accurate forecasting and prediction using these indicators. (Source: Feng, K., et al., "Monitoring Desertification Using Machine-Learning Techniques with Multiple Indicators Derived from MODIS Images in Mu Us Sandy Land, China", Remote Sensing, 2022, 14(11):2663. [DOI](https://doi.org/10.3390/rs14112663)).
