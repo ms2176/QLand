@@ -1,3 +1,4 @@
+from qiskit import Aer, execute
 from qiskit_optimization import QuadraticProgram
 from qiskit_optimization.algorithms import MinimumEigenOptimizer
 from qiskit.algorithms import QAOA
@@ -90,7 +91,7 @@ class QAOAJobScheduler:
 
 if __name__ == "__main__":
     # Run and output the results of the scheduler
-    qaoa = QAOAJobScheduler()
+    qaoa = QAOAJobScheduler({1:1, 2:1, 3:1})
     qaoa.run()
 
     print(qaoa.result())
