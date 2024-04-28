@@ -114,7 +114,7 @@ if __name__ == "__main__":
         "country": "Iraq",
         "nvdi_data": "NVDI_RF/modis_ndvi_series.csv",
         "lst_data": "LST_RF/modis_ndvi_series_LST.csv",
-        "models": ["Random Forest", "Gradient Boosted Trees", "CNN", "Support Vector Machines"],
+        "models": ["Gradient Boosted Trees"],
     }
     analyzer = DesertificationAnalyzer(data)
 

@@ -32,9 +32,12 @@ def get_user_input():
     return country, nvdi_data, lst_data, model_selections
 
 
-def main():
+def main(args:list=None):
     """Calls the analyzer model to get estimated resources, then passes it to the scheduler to get the execution schedule over multiple machines"""
-    country, nvdi_data, lst_data, model_selections = get_user_input()
+    if args is None:
+        args = get_user_input()
+    country, nvdi_data, lst_data, model_selections = args
+
     data = {
         "country": country,
         "nvdi_data": nvdi_data,
