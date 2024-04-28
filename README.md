@@ -36,7 +36,7 @@ The project aims to optimize the process of analyzing key factors contributing t
    - Normalized Difference Vegetation Index (NDVI)
    - Land Surface Temperature (LST)
 
-![Figure4.Using NDVI on SVM ](https://github.com/ms2176/QLand/blob/main/images/Using%20SVM%20with%20NDVI.png))
+![Figure4.Using NDVI on SVM ](https://github.com/ms2176/QLand/blob/main/images/Using%20SVM%20with%20NDVI.png)
 
 ### Quantum Computing Application
 **Quantum Job Scheduling Problem**:
@@ -79,7 +79,7 @@ To run and test the app you need to run `main.py` file by executing the followin
 $ python3 app/main.py
 ```
 
-then proceed by inputting the requested data (e.g. for the NDVI csv file)
+then proceed by inputting the requested data (e.g. the NDVI csv file)
 
 **Alternatively**, you can run the `test.py` file by executing the following command:
 ```bash
