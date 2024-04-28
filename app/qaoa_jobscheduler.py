@@ -8,7 +8,7 @@ from qiskit.utils import QuantumInstance
 
 
 class QAOAJobScheduler():
-    def __init__(self, jobs = 7, machines = 3, timecount = 3):
+    def __init__(self, anaylzer, jobs = 7, machines = 3, timecount = 3):
         self.jobs = jobs
         self.machines = machines
         self.timecount = timecount

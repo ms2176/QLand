@@ -24,16 +24,15 @@ def main():
         'models': model_selections
     }
     analyzer = DesertificationAnalyzer(data)
+    analyzer.estimate_resources()
     # Pass the analyzer object to the QAOAJobScheduler
     scheduler = QAOAJobScheduler(analyzer)
     result = scheduler.run()
     # depending on the result run on the available GPU
     # or run on the available CPU
-    if result == 'GPU':
-        print("Running on GPU")
-        
-    else:
-        print("Running on CPU")
     print(result)
 
 
+
+if __name__ == "__main__":
+    main()
