@@ -2,46 +2,43 @@
 
 ### Table of Content
 <ul>
-   <li><a name="#Project-Outline">Project Outline</a></li>
-   <li><a name="#Objective">Objective</a></li>
-   <li><a name="#Case-Study">Case Study</a></li>
-   <li><a name="#Data-Collection">Data Collection</a></li>
-   <li><a name="#Classical-Machine-Learning-Models">Classical Machine Learning Models</a></li>
-   <li><a name="#Quantum-Computing-Application">Quantum Computing Application</a></li>
-   <li><a name="#Research-Foundation">Research Foundation</a></li>
-   <li><a name="#Conclusion">Conclusion</a></li>
-   <li><a name="#Getting-Started-With-The-App">Getting Started With The App</a></li>
-   <li><a name="#Credits">Credits</a></li>
-   <li><a name="#Citations">Citations</a></li>
+   <li><a name="Project-Outline">Project Outline</a></li>
+   <li><a name="Objective">Objective</a></li>
+   <li><a name="Case-Study">Case Study</a></li>
+   <li><a name="Research-Foundation">Research Foundation</a></li>
+   <li><a name="Conclusion">Conclusion</a></li>
+   <li><a name="Project-Structure">Project Structure</a></li>
+   <li><a name="Getting-Started-With-The-App">Getting Started With The App</a></li>
+   <li><a name="Credits">Credits</a></li>
+   <li><a name="Citations">Citations</a></li>
 </ul>
 
 ## Project Outline
 
 QLand||QArdh is a pioneering project developed during the NYU Quantum Computing Hackathon. The initiative leverages quantum computing technologies to enhance the monitoring and prediction of desertification, a critical environmental issue where fertile lands progressively turn into deserts. Desertification affects two-thirds of the Earth’s land surface and is driven by various factors including human activities and climate change.
 
-![Figure1. Distribution of Desertification around the world](https://github.com/ms2176/QLand/blob/main/foldrt/fig%20one.jpg)
+![Figure1. Distribution of Desertification around the world](https://github.com/ms2176/QLand/blob/main/images/fig%20one.jpg)
 
 
 ## Objective
 The project aims to optimize the process of analyzing key factors contributing to desertification by using both classical machine learning and quantum computing techniques. This dual approach seeks to improve accuracy and efficiency in predicting future desertification patterns.
 
 ## Case Study
-> WIP
 
-## Data Collection
+### Data Collection
 **Datasets**: We utilized datasets based on desertification analysis in Iraq, incorporating insights from previous studies such as the one outlined by Omdena on using machine learning and satellite data for desertification detection. (Source: [Omdena Blog](https://www.omdena.com/blog/desertification-detection-with-machine-learning-and-satellite-data)).
 
-![Figure2. Iraq, case study region](https://github.com/ms2176/QLand/blob/main/foldrt/Fig2%20Study%20case%20Region-of-interest-for-land-cover-classification-approach.jpg)
-![Figure3. Iraq case study](https://github.com/ms2176/QLand/blob/main/foldrt/study%20case%202.jpg)
+![Figure2. Iraq, case study region](https://github.com/ms2176/QLand/blob/main/images/Fig2%20Study%20case%20Region-of-interest-for-land-cover-classification-approach.jpg)
+![Figure3. Iraq case study](https://github.com/ms2176/QLand/blob/main/images/study%20case%202.jpg)
 
-## Classical Machine Learning Models
+### Classical Machine Learning Models
 **Machine Learning Implementation**: We employed classical machine learning models such as Random Forest (RF) and Support Vector Machines (SVM). These models were tested with two of the four main indicators of desertification:
    - Normalized Difference Vegetation Index (NDVI)
    - Land Surface Temperature (LST)
 
-![Figure4.Using NDVI on SVM ](https://github.com/ms2176/QLand/blob/main/foldrt/Using%20SVM%20with%20NDVI.png))
+![Figure4.Using NDVI on SVM ](https://github.com/ms2176/QLand/blob/main/images/Using%20SVM%20with%20NDVI.png))
 
-## Quantum Computing Application
+### Quantum Computing Application
 **Quantum Job Scheduling Problem**:
    - **Definition**: In quantum computing, the job scheduling problem involves the optimal allocation of quantum computation tasks to available quantum resources (qubits, quantum gates) over time. Efficient scheduling is crucial for maximizing the utilization of quantum hardware, which is still a limited resource.
    - **Application**: For this project, we applied the Quantum Approximate Optimization Algorithm (QAOA) to solve quantum job scheduling problems. This approach aims to streamline our computational processes, thereby speeding up the analysis of desertification indicators.
@@ -51,6 +48,18 @@ The project aims to optimize the process of analyzing key factors contributing t
 
 ## Conclusion
 The QLand||QArdh project is at the forefront of integrating quantum computing with machine learning to tackle the pressing issue of desertification. By refining data analysis and prediction models, this initiative not only contributes to environmental science but also enhances our capability to manage and potentially mitigate one of the most severe ecological challenges of our time.
+
+## Project Structure
+
+    ├── app             <- The directly executable code of the scheduler.
+    ├── LST_RF          <- Jupyter notebook illustrating the use of RF model over LST index.
+    ├── LST_SVM         <- Jupyter notebook illustrating the use of SVM model over LST index.
+    ├── NDVI_RF         <- Jupyter notebook illustrating the use of RF model over NVDI index.
+    ├── NDVI_SVM        <- Jupyter notebook illustrating the use of SVM model over NVDI index.
+    ├── images          <- holds README images.
+    └────
+--------
+
 
 ## Getting Started With The App
 
@@ -67,14 +76,14 @@ The QLand||QArdh project is at the forefront of integrating quantum computing wi
 To run and test the app you need to run `main.py` file by executing the following command:
 
 ```bash
-$ python3 main.py
+$ python3 app/main.py
 ```
 
 then proceed by inputting the requested data (e.g. for the NDVI csv file)
 
 **Alternatively**, you can run the `test.py` file by executing the following command:
 ```bash
-$ python3 test.py
+$ python3 app/test.py
 ```
 
 ## Credits
@@ -91,7 +100,7 @@ This project was developed to be presented for the Quantum Computing Hackathon a
 
 #### Mentors:
    - [Ricky Young](https://www.linkedin.com/in/ricky-y-1545b3a9), Qbraid
-   - [David Morcuende Cantador](https://www.linkedin.com/in/david-morcuende-cantador/), Mahou - San Miguel
+   - [David Morcuende Cantador](https://www.linkedin.com/in/david-morcuende-cantador/), QuIC
    - [Muhammad Kashif](https://www.linkedin.com/in/muhammad-kashif-29191571), NYUAD
 
 ## Citations
