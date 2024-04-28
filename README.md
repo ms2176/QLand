@@ -11,6 +11,9 @@ QLand||QArdh is a pioneering project developed during the NYU Quantum Computing 
 #### Objective
 The project aims to optimize the process of analyzing key factors contributing to desertification by using both classical machine learning and quantum computing techniques. This dual approach seeks to improve accuracy and efficiency in predicting future desertification patterns.
 
+### Case Study( Desertification in Iraq)
+
+ 
 #### Data Collection
 1. **Datasets**: We utilized datasets based on desertification analysis in Iraq, incorporating insights from previous studies such as the one outlined by Omdena on using machine learning and satellite data for desertification detection. (Source: [Omdena Blog](https://www.omdena.com/blog/desertification-detection-with-machine-learning-and-satellite-data)).
 
