@@ -11,6 +11,7 @@
    <li><a href="#Case-Study">Case Study</a></li>
    <li><a href="#Research-Foundation">Research Foundation</a></li>
    <li><a href="#Conclusion">Conclusion</a></li>
+   <li><a href="#Results">Results</a></li>
    <li><a href="#Project-Structure">Project Structure</a></li>
    <li><a href="#Getting-Started-With-The-App">Getting Started With The App</a></li>
    <li><a href="#Credits">Credits</a></li>
@@ -64,6 +65,19 @@ We use this time complexity for our job scheduling to determine the resource est
 The implementation of a quantum scheduler within distributed machine learning (ML) systems has demonstrated notable efficacy in optimizing task allocation across multiple machines while minimizing execution time. Through the utilization of quantum algorithms such as the Quantum Approximate Optimization Algorithm (QAOA), the scheduler explores expansive solution spaces, seeking optimal task assignments that mitigates resource conflicts to enhance overall system performance.
 
 Moreover, the quantum scheduler exhibits adaptability and responsiveness to dynamic changes in job demands and resource availability, affording the system the capacity to adjust task allocations. This optimization enables the scheduler to maintain efficient resource utilization and throughput, thereby augmenting the efficiency of ML model training and inference processes.
+
+**Example**  
+The following shows an example output of the scheduler when scheduling 3 jobs on 2 machines:
+```
+fval=3.0, machine1job1time1=1.0, machine1job1time2=0.0, machine1job2time1=0.0, machine1job2time2=1.0, machine1job3time1=0.0, machine1job3time2=0.0, machine2job1time1=0.0, machine2job1time2=0.0, machine2job2time1=0.0, machine2job2time2=0.0, machine2job3time1=1.0, machine2job3time2=0.0, status=SUCCESS
+```
+
+Mapping it to a table results in the following:
+|           | Machine 1 | Machine 1 |
+|-----------|-----------|-----------|
+|  Time 1   |   Job 1   |   Job 3   |
+|  Time 2   |   Job 2   |   IDLE    |
+
 
 ## Research Foundation
 - **Background**: In examining anthropogenic factors of desertification, our project references research that identifies four critical indicators: NDVI, LST, DGSI (Dryness Greenness Soil Index), and Albedo. However, existing research (e.g., Feng et al., 2022) points out significant challenges in accurate forecasting and prediction using these indicators. (Source: Feng, K., et al., "Monitoring Desertification Using Machine-Learning Techniques with Multiple Indicators Derived from MODIS Images in Mu Us Sandy Land, China", Remote Sensing, 2022, 14(11):2663. [DOI](https://doi.org/10.3390/rs14112663)).
