@@ -65,6 +65,12 @@ The implementation of a quantum scheduler within distributed machine learning (M
 
 Moreover, the quantum scheduler exhibits adaptability and responsiveness to dynamic changes in job demands and resource availability, affording the system the capacity to adjust task allocations. This optimization enables the scheduler to maintain efficient resource utilization and throughput, thereby augmenting the efficiency of ML model training and inference processes.
 
+We provide an example result below with 3 machines, 2 time slots and 3 jobs, where all the machines are sucessfully ran at `t=0` .
+
+```
+fval=3.0, machine1job1time1=1.0, machine1job1time2=0.0, machine1job2time1=0.0, machine1job2time2=1.0, machine1job3time1=0.0, machine1job3time2=0.0, machine2job1time1=0.0, machine2job1time2=0.0, machine2job2time1=0.0, machine2job2time2=0.0, machine2job3time1=1.0, machine2job3time2=0.0, status=SUCCESS
+```
+
 ## Research Foundation
 - **Background**: In examining anthropogenic factors of desertification, our project references research that identifies four critical indicators: NDVI, LST, DGSI (Dryness Greenness Soil Index), and Albedo. However, existing research (e.g., Feng et al., 2022) points out significant challenges in accurate forecasting and prediction using these indicators. (Source: Feng, K., et al., "Monitoring Desertification Using Machine-Learning Techniques with Multiple Indicators Derived from MODIS Images in Mu Us Sandy Land, China", Remote Sensing, 2022, 14(11):2663. [DOI](https://doi.org/10.3390/rs14112663)).
 
